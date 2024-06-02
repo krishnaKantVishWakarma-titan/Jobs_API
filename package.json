@@ -4,12 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "node build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cjs-loader": "^0.1.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
@@ -29,6 +31,6 @@
     "nodemon": "^2.0.9"
   },
   "engines": {
-    "node": "14.x"
+    "node": "21.x"
   }
 }
